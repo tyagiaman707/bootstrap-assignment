@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://wallpapers.com/images/hd/hd-car-driving-during-sunset-gax7skw8dep30gjb.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: 100%;
+    opacity: 0.2;
+    z-index: -2;
+}
+h6{
+    color: rgb(230, 195, 0);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5%;
+    font-size: small;
+}
+.heading_main{
+    color:#0C2A4A;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    height: 22%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.cards_collection{
+ height: 65%;
+ width: 70%;
+ margin-top: 3%;
+ margin-left: 15%;
+margin-right: 15%;
+display: flex;
+justify-content: space-around;
+}
+.small_heading{
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.very_small_heading{
+    font-size: small;
+    color: rgb(146, 146, 146);
+    margin: 5%;
+}
+.small_container{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    height: 10%;
+    width: 20%;
+    background-color: rgb(230, 195, 0);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.card-img-top{
+    height: 70%;
+    width: 100%;
+}
